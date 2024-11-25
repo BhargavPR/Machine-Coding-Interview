@@ -1,0 +1,24 @@
+add_movie Don 2006 Action,Comedy
+add_movie Tiger 2008 Drama
+add_movie Padmavat 2006 Comedy
+add_movie Lunchbox-2 2022 Drama
+add_movie Guru 2006 Drama
+add_movie Metro 2006 Romance
+add_user SRK
+add_user Salman
+add_user Deepika
+add_review SRK Don 2
+add_review SRK Padmavat 8
+add_review Salman Don 5
+add_review Deepika Don 9
+add_review Deepika Guru 6
+add_review SRK Don 10
+update_review SRK Don 8
+add_review Deepika Lunchbox-2 5
+add_review SRK Tiger 5
+delete_review SRK Tiger
+add_review SRK Metro 7
+display_user_review SRK
+display_user_review Deepika
+display_top_movies_by_year 1 2006
+display_top_movies_by_genre 1 Drama

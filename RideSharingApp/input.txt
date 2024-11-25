@@ -1,0 +1,27 @@
+add_user Rohan Male 36
+add_vehicle Rohan Swift KA-01-12345
+add_user Shashank Male 29
+add_vehicle Shashank Baleno TS-05-62395
+add_user Nandini Female 29
+add_user Shipra Female 27
+add_vehicle Shipra Polo KA-05-41491
+add_vehicle Shipra Activa KA-12-12332
+add_user Gaurav Male 29
+add_user Rahul Male 35
+add_vehicle Rahul XUV KA-05-1234
+offer_ride 2A Rohan Hyderabad 1 Swift KA-01-12345 Bangalore
+offer_ride 2B Shipra Bangalore 1 Activa KA-12-12332 Mysore
+offer_ride 2C Shipra Bangalore 2 Polo KA-05-41491 Mysore
+offer_ride 2D Shashank Hyderabad 2 Baleno TS-05-62395 Bangalore
+offer_ride 2E Rahul Hyderabad 5 XUV KA-05-1234 Bangalore
+offer_ride 2F Rohan Bangalore 1 Swift KA-01-12345 Pune
+select_ride Nandini Bangalore Mysore 1 MOST_VACANT
+select_ride Gaurav Bangalore Mysore 1 PREFERRED_VEHICLE Activa
+select_ride Shashank Mumbai Bangalore 1 MOST_VACANT
+select_ride Rohan Hyderabad Bangalore 1 PREFERRED_VEHICLE Baleno
+select_ride Shashank Hyderabad Bangalore 1 PREFERRED_VEHICLE Polo
+end_ride 2A
+end_ride 2B
+end_ride 2C
+end_ride 2D
+print_ride_stats
